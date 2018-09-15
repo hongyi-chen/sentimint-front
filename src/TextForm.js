@@ -15,6 +15,7 @@ class TextForm extends React.Component {
     this.setState({value: event.target.value});
   }
 
+  // SUBMIT BUTTON FUNCTION
   handleSubmit(event) {
     alert('An essay was submitted: ' + this.state.value);
     event.preventDefault();

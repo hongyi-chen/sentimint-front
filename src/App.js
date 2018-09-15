@@ -3,6 +3,7 @@ import logo from './logo.png';
 import question from './question.png';
 import TextForm from './TextForm';
 import './App.css';
+import './TextForm.css';
 
 class App extends Component {
   render() {

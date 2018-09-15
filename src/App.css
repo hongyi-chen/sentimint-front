@@ -7,6 +7,11 @@
   float: left;
 }
 
+.Question-icon {
+  height: 25px;
+  float: right;
+}
+
 .App-header {
   background-color: #ffffff;
   height: 150px;

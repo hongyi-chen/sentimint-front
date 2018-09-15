@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.png';
+import question from './question.png';
+import TextForm from './TextForm';
 import './App.css';
 
 class App extends Component {
@@ -8,10 +10,9 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <img src={question} className="Question-icon" alt="help" />
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <TextForm />
       </div>
     );
   }

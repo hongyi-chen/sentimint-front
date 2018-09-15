@@ -9,6 +9,7 @@ class TextForm extends React.Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+
   }
 
   handleChange(event) {
@@ -26,11 +27,17 @@ class TextForm extends React.Component {
       <form onSubmit={this.handleSubmit}>
         <label>
           <textarea value={this.state.value} onChange={this.handleChange} />
+
         </label>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Enter Journal"
+        />
       </form>
     );
   }
+
+//           textarea.style.height = ""; /* Reset the height*/
+        //  textarea.style.height = Math.min(text.scrollHeight, heightLimit) + "px";
+        
 }
 
 export default TextForm;
